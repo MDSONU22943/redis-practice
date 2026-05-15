@@ -1,0 +1,15 @@
+{
+    "name":"02-setup-local-redis",
+    "version":"1.0.0",
+    "description":"A simple Node.js application to demonstrate how to set up a local Redis server and interact with it using the `redis` npm package.",
+    "private":true,
+    "type":"module",
+    "scripts": {
+        "dev":"node src/index.js"
+    },
+    "dependencies": {
+        "express":"^4.18.3",
+        "ioredis":"^5.4.1",
+        "mongoose":"8.2.1"
+    }
+}
